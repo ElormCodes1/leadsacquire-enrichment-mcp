@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.elormcodes1/leadsacquire-enrichment",
+  "name": "io.github.ElormCodes1/leadsacquire-enrichment",
   "description": "B2B company & people enrichment plus live hiring-intent signals, from one API key.",
   "status": "active",
   "repository": {
