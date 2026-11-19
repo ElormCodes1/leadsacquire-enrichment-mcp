@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.elormcodes1/leadsacquire-enrichment",
+  "description": "B2B company & people enrichment plus live hiring-intent. Look up a business, the real people and contacts tied to it, and a company's current open roles / hiring signals.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/ElormCodes1/leadsacquire-enrichment-mcp",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "websiteUrl": "https://leadsacquire.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.leadsacquire.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your API key> — get a free key at https://app.leadsacquire.com",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
